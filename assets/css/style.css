@@ -1,3 +1,7 @@
+main{
+    height: 900px;
+    text-align: center;
+}
 .header-title{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -7,4 +11,54 @@
 }
 .bgColor {
     background-color: #C71585;
+}
+.container{
+    margin: auto;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+#input{
+    width: 219px;
+    height: 37px;
+    border-radius: 3.2px;
+    border: solid 0.8px #1f233e;
+    background-color: inherit;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+}
+#submit{
+    width: 125px;
+    height: 30px;
+    border-radius: 2px;
+    border-color: inherit;
+    background-color: #1f233e;
+    margin: 30px 10% 0 25%;
+    font-family: Work Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ef6b68;
+}
+#response{
+    min-width: 191px;
+  min-height: 120px;
+  background-color: #1f233e;
+  margin: auto;
+  margin-top: 25px;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  overflow-wrap: break-word;
+  padding: 20px;
 }
