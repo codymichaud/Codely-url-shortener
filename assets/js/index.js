@@ -24,6 +24,7 @@ const shortenUrl = async () => {
         }
     } catch (error) {
         console.log(error);
+        responseField.innerHTML('')
     }
 };
 
