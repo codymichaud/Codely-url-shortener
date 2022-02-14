@@ -1,8 +1,3 @@
-//Formatting Response
-
-
-
-
 const byteResponse = (res) => {
     if (res.error) {
         responseField.innerHTML = `<p>Sorry, we could not format your Url. Please try again.`;

@@ -97,19 +97,3 @@ li {
     text-align: center;
     color: #ffffff;
 }
-#submit:hover, #toggle:hover{
-    background-color: #1f233e;
-    border: solid 0.8px #4a4a4a;
-    color: #0087de;
-    cursor: pointer;
-}
-
-#submit:active, #toggle:active{
-  background-color: #ffffff;
-  border-color: #ffffff;
-  color: #ef6b68;
-  cursor: pointer;
-}
-#submit {
-  visibility: hidden;
-}

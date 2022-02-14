@@ -1,9 +1,10 @@
 const responseField = document.querySelector('#response');
 const inputField = document.querySelector('#input');
-const apiKey = '82f3c82177aa447bb9e71bb1f2bb58ee';
+const apiKey = 'a944afe545a348c29440d2eb9b8b7ac0';
 const rebrandlyUrl = 'https://api.rebrandly.com/v1/links';
 
 const shortenBtn = document.querySelector('#shorten');
+
 
 const shortenUrl = async () => {
     const urlToShorten = inputField.value;
